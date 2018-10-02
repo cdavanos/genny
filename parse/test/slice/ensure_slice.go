@@ -4,7 +4,7 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/cheekybits/genny/generic"
+	"github.com/cdavanos/genny/generic"
 )
 
 type MyType generic.Type

@@ -1,11 +1,12 @@
 package out_test
 
 import (
-	"github.com/cheekybits/genny/out"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/cdavanos/genny/out"
+	"github.com/stretchr/testify/assert"
 )
 
 const testFileName = "test-file.go"
